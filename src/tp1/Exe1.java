@@ -1,5 +1,4 @@
 package tp1;
-
 public class Exe1 {
 	// Hello World !
 
