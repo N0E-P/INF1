@@ -11,15 +11,11 @@ public class Exe6 {
 		int total = sc.nextInt();
 		sc.close();
 
+		int jours = total / 60 / 60 / 24;
+		int heures = (total / 60 / 60) - jours * 24;
+		int minutes = (total / 60) - jours * 24 * 60 - heures * 60;
+		int secondes = total - jours * 24 * 60 * 60 - heures * 60 * 60 - minutes * 60;
+
+		System.out.println("Cela donne " + jours +" jours " + heures + " heures " + minutes + " minutes et " + secondes +" secondes");
 	}
 }
-
-/*
- * transformer secondes en jours: s * 60 * 60 * 24
- * 
- * 
- * transformer secondes en heures: s * 60 * 60
- * 
- * transformer secondes en min: s * 60
- * 
- */

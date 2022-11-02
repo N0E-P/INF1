@@ -19,6 +19,24 @@ public class Exe4 {
 	}
 
 	public static void main(String[] args) {
+		int r = entierAleatoire(1,100);
 
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Entrez un nombre :");
+		int proposition = sc.nextInt();
+
+		while(proposition != r){
+			if (proposition < r){
+				System.out.println("Trop petit !");
+
+			} else {
+				System.out.println("Trop grand !");
+			}
+
+			proposition = sc.nextInt();
+		}
+		
+		sc.close();
+		System.out.println("Gagné !");
 	}
 }
