@@ -1,11 +1,11 @@
 package tp2;
+
 import java.util.Scanner;
 
-public class Exe5_A_FAIRE {
+public class Exe5 {
 
-	// Figures d'étoiles 
+	// Figures d'étoiles
 	public static void main(String[] args) {
-		
 
 	}
 }
