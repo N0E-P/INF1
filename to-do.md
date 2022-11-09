@@ -4,9 +4,12 @@ tp2
 
 tp4
 
-    ex2
     ex3
     ex4
+    
+td6
+
+    ex3
 
 cours
 
