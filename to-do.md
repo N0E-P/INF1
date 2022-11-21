@@ -21,6 +21,5 @@ td8
 
 cours
 
-    CM6
     CM7
     CM8
