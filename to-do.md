@@ -2,14 +2,22 @@ tp2
 
     ex 5
 
-tp4
-
-    ex3
-    ex4
-    
 td6
 
     ex3
+
+td7
+
+    ex5
+    ex6
+    ex7
+    ex8
+    ex9
+
+td8
+
+    ex6
+    ex7
 
 cours
 

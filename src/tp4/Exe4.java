@@ -1,10 +1,19 @@
 package tp4;
 
 public class Exe4 {
-	// Exercice 4 : Parcours de tableau
 
-	// TODO
+	public static int[] parcoursTableau(int[] tabVals, int[] tabDepls, int posInit) {
+		int[] tab = new int [tabDepls.length];
+		int position = posInit;
+		
+		for (int i = 0; i < tabDepls.length; i++) {
+			position = position + tabDepls[i];
+			tab[i] = tabVals[position];
+		}
+		return tab;
+	}
 
+	
 	public static void main(String[] args) {
 		// Exemple de tableaux
 		int[] tabVals = { 2, 5, 6, 1, 9, 8, 3, 4, 5, 7 };
@@ -15,7 +24,7 @@ public class Exe4 {
 		int[] tabExpected = { 6, 8, 9, 5 };
 
 		// Exécuter la fonction que vous avez définie
-		// TODO
+		int[] tab = parcoursTableau(tabVals, tabDepls, posInit);
 
 		// Affichage du tableau attendu
 		System.out.print("Expected result:");
@@ -25,7 +34,10 @@ public class Exe4 {
 		System.out.println();
 
 		// Affichage du résultat obtenu, et comparer
-		// TODO
+		System.out.print("My result:");
+		for (int i = 0; i < tab.length; i++) {
+			System.out.print(" " + tab[i]);
+		}
 	}
 
 }
